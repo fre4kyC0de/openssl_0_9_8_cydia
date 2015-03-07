@@ -15,3 +15,5 @@ For arm64 run
 ./Configure darwin64-x86_64-cc shared --prefix=/usr --openssldir=/usr/lib/ssl
 
 Then use "make" to compile.
+
+You may use my fork of OpenSSL, too.

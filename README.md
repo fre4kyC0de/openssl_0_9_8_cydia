@@ -6,13 +6,13 @@ armv7
 =====
 For armv7 run
 ./config shared
-./Configure darwin-i386-cc shared --prefix=/usr --openssldir=/usr/lib/ssl 
+./Configure darwin-i386-cc shared no-sse2 --prefix=/usr --openssldir=/usr/lib/ssl 
 
 arm64
 =====
 For arm64 run
 ./config shared
-./Configure darwin64-x86_64-cc shared --prefix=/usr --openssldir=/usr/lib/ssl
+./Configure darwin64-x86_64-cc shared no-sse2 --prefix=/usr --openssldir=/usr/lib/ssl
 
 Then use "make" to compile.
 
